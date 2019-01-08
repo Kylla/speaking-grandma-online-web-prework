@@ -21,6 +21,6 @@ elsif speech == "Hi"
   puts "HUH?! SPEAK UP, SONNY!"
   
 else 
-# puts "NO, NOT SINCE 1938!"
+ puts "NO, NOT SINCE 1938!"
 end
 end
