@@ -1,3 +1,15 @@
+speak_to_grandma = (speech)
+
+if speech.upcase == "I LOVE YOU GRANDMA!"
+  puts "I LOVE YOU TOO PUMPKIN!"
+  
+elsif speech.downcase == "Hi"
+  puts "HUH?! SPEAK UP, SONNY!"
+  
+else 
+ puts "NO, NOT SINCE 1938!"
+end
+
 # Write a speak_to_grandma method.
 
 # Whatever you say to grandma, she should respond with
@@ -12,14 +24,3 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
  
-speak_to_grandma = (speech)
-
-if speech.upcase == "I LOVE YOU GRANDMA!"
-  puts "I LOVE YOU TOO PUMPKIN!"
-  
-elsif speech.downcase == "Hi"
-  puts "HUH?! SPEAK UP, SONNY!"
-  
-else 
- puts "NO, NOT SINCE 1938!"
-end
