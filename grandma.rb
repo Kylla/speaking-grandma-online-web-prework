@@ -14,10 +14,10 @@
  
 def speak_to_grandma = (speech)
 
-if speech == "I LOVE YOU GRANDMA!"
+if speech.upcase == "I LOVE YOU GRANDMA!"
   puts "I LOVE YOU TOO PUMPKIN!"
   
-elsif speech == "Hi"
+elsif speech.downcase == "Hi"
   puts "HUH?! SPEAK UP, SONNY!"
   
 else 
