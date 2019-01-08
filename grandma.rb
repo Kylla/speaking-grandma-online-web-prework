@@ -12,7 +12,7 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
  
-speak_to_grandma = (speech)
+def speak_to_grandma = (speech)
 
 if speak_to_grandma == "I LOVE YOU GRANDMA!"
   puts "I LOVE YOU TOO PUMPKIN!"
@@ -27,4 +27,5 @@ if speak_to_grandma == "I LOVE YOU GRANDMA!"
  
 #else 
  # puts "NO, NOT SINCE 1938!"
+end
 end
